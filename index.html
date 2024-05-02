@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party</title>
+    <script type="application/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form type="submit">
+        <label>Name of Host</label>
+        <input type="text" id="partyName" placeholder="First name & Last name">
+        <label>Description</label>
+        <input type="text" id="partyDescription" placeholder="what's the party about?">
+        <label>Date</label>
+        <input type="datetime-local" id="partyDate">
+        <label>Location</label>
+        <input id="partyLocation" type="text" placeholder="address">
+        <button id="submitParty" type="submit">Submit</button>
+    </form><br>
+    <div class="table">
+        <table>
+            <caption>Parties Planned for 2024</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Party Host</th>
+                    <th scope="col">Party Description</th>
+                    <th scope="col">Party Date</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Remove party</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tyler Sloan</th>
+                    <td>Zeus' birthday Party</td>
+                    <td>06/03/2024 6:00 PM</td>
+                    <td>Royal Oak, MI</td>
+                    <td>
+                        <button id="removePartyFromTable">Remove Party</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+<!-- <tc id="tableHead">afsdf</tc>
+<tc id="tableHead">fasdfsdf</tc>
+<tc id="tableHead"></tc>
+<tc id="tableHead"></tc> -->

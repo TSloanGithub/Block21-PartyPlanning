@@ -1,0 +1,18 @@
+table {
+    border: 2px solid rgb(8, 248, 8);
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+thead{
+    background-color: antiquewhite;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px 30px;
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+}
